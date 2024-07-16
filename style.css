@@ -3,13 +3,27 @@ h1 {
 	font-family: 'Times New Roman';
 }
 
+h3 {
+	font-family: 'Times New Roman';
+	padding: 30px 255px;
+}
+
 p{
 	text-align: justify;
-	margin: 16px 256px;
+	margin: 8px 256px;
 	font-family: 'Times New Roman';
 }
 
 div{
 	text-align: center;
 	padding: 16px;
+}
+
+#ModelOutput{
+	font-family: 'Times New Roman';
+	background-color: yellow;
+	border-radius: 10px;
+	margin: 0px 256px;
+	width: 500px;
+	height: 30px;
 }

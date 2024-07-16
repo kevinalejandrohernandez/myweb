@@ -3,16 +3,17 @@
 <html> 
 
 	<head>
-		
-		<link rel= 'stylesheet' href=style.css>
 
+		<link rel= 'stylesheet' href=style.css>
+        <script src="script.js"></script>
+     
 	</head>
 	
 	<h1> Modelo de lenguaje aleatorio </h1>
 
 	<p> 
 		El modelo de lenguaje aleatorio es un modelo de generación de texto que se basa en el hecho de que los caracteres tienen la misma probabilidad de ocurrencia, por lo que la distribución que guia al modelo es uniforme. De esta forma, dado un conjunto de caracteres <var> <b>X</b> = {x}<sub>i=0</sub><sup>N</sup></var> de tamaño <var>N</var>, entonces el siguiente caracter a generar sera <var> x </var> con probabilidad <var>1 / N</var>.
-	</p>
+	</p> 
 
 	<div>
 		
@@ -24,6 +25,10 @@
 		Donde <var>L</var> representa la longitud del texto generado.
 
 	</p>
+
+	<h3> Respuesta del modelo </h3>
+
+	<div id="ModelOutput"></div>
 
 	<footer> version <b>alpha 0</b> </footer>
 
